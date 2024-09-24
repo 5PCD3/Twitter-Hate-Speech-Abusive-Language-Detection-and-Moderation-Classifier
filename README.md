@@ -1,5 +1,8 @@
 # **[Twitter Hate Speech & Abusive Language Detection and Moderation Classifier](https://twitter-hate-speech-abusive-language-detection-and-moderation.streamlit.app/)**
 
+![Cover](https://github.com/5PCD3/Twitter-Hate-Speech-Abusive-Language-Detection-and-Moderation-Classifier/blob/main/cover_picture.jpeg)
+*This image is generated with NinjaTech AI*
+
 ## **Goal Of This Project**
 Our goal is to create a binary classification model that detects slang words or hate speech so that these tweets can be automatically deleted.
 
@@ -39,9 +42,7 @@ This binary classification helps us efficiently determine which comments need mo
 
 ### Confusion Matrices
 
-
 ![SVM Confusion Matrix](https://github.com/5PCD3/Twitter-Hate-Speech-Abusive-Language-Detection-and-Moderation-Classifier/blob/main/plots/SVM_confusion_matrix_normalized.png)
-
 
 ![Logistic Regression Confusion Matrix](https://github.com/5PCD3/Twitter-Hate-Speech-Abusive-Language-Detection-and-Moderation-Classifier/blob/main/plots/Log_reg_confusion_matrix_normalized.png)
 
@@ -63,5 +64,6 @@ In conclusion, the Logistic Regression model represents a better overall perform
 
 **Demo Video:**
 ![Watch the Streamlit Web Application Demo](https://github.com/5PCD3/Twitter-Hate-Speech-Abusive-Language-Detection-and-Moderation-Classifier/blob/main/TwitterHatespeechDetectionAppDemo.gif)
+
 **Note:**
 *Please note that this prediction is based on how the model was trained, so it may not be an accurate representation.*
