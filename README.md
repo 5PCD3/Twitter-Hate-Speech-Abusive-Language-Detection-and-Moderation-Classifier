@@ -1,4 +1,4 @@
-# **Twitter Hate Speech & Abusive Language Detection and Moderation Classifier**
+# **[Twitter Hate Speech & Abusive Language Detection and Moderation Classifier](https://twitter-hate-speech-abusive-language-detection-and-moderation.streamlit.app/)**
 
 ## **Goal Of This Project**
 Our goal is to create a binary classification model that detects slang words or hate speech so that these tweets can be automatically deleted.
