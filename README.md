@@ -62,7 +62,7 @@ VADER (Valence Aware Dictionary and Sentiment Reasoner) was selected for sentime
 
 In conclusion, the Logistic Regression model with Bi-Grams features represents a better overall performance due to its balanced performance across both classes and higher true positive rates. Thus, we selected Logistic Regression and deployed it in a [Streamlit web application](https://twitter-hate-speech-abusive-language-detection-and-moderation.streamlit.app/). VADER was utilized for sentiment analysis to effectively handle the specific challenges of social media text.
 
-**Demo Video:**
+**[Demo Video](https://github.com/5PCD3/Twitter-Hate-Speech-Abusive-Language-Detection-and-Moderation-Classifier/blob/main/TwitterHatespeechDetectionAppDemo.gif)** 
 ![Watch the Streamlit Web Application Demo](https://github.com/5PCD3/Twitter-Hate-Speech-Abusive-Language-Detection-and-Moderation-Classifier/blob/main/TwitterHatespeechDetectionAppDemo.gif)
 
 **Note:**
