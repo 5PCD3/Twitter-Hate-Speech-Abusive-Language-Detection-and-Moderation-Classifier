@@ -54,13 +54,13 @@ This binary classification helps us efficiently determine which comments need mo
 
 ### Why We Chose VADER for Sentiment Analysis
 
-VADER (Valence Aware Dictionary and sEntiment Reasoner) was selected for sentiment analysis due to its effectiveness in analyzing social media text, which often contains informal language, slang, and emojis. Its strengths include:
+VADER (Valence Aware Dictionary and Sentiment Reasoner) was selected for sentiment analysis due to its effectiveness in analyzing social media text, which often contains informal language, slang, and emojis. Its strengths include:
 
 - **Adaptability to Social Media**: VADER is specifically tuned to handle the nuances of social media text, making it well-suited for analyzing tweets.
 - **Ease of Use**: It requires minimal preprocessing and is straightforward to implement, which streamlined the analysis process.
 - **Accuracy**: VADER performs well in distinguishing sentiment in short texts like tweets, providing reliable sentiment scores for our model.
 
-In conclusion, the Logistic Regression model represents a better overall performance due to its balanced performance across both classes and higher true positive rates. Thus, we selected Logistic Regression and deployed it in a [Streamlit web application](https://twitter-hate-speech-abusive-language-detection-and-moderation.streamlit.app/). VADER was utilized for sentiment analysis to effectively handle the specific challenges of social media text.
+In conclusion, the Logistic Regression model with Bi-Grams features represents a better overall performance due to its balanced performance across both classes and higher true positive rates. Thus, we selected Logistic Regression and deployed it in a [Streamlit web application](https://twitter-hate-speech-abusive-language-detection-and-moderation.streamlit.app/). VADER was utilized for sentiment analysis to effectively handle the specific challenges of social media text.
 
 **Demo Video:**
 ![Watch the Streamlit Web Application Demo](https://github.com/5PCD3/Twitter-Hate-Speech-Abusive-Language-Detection-and-Moderation-Classifier/blob/main/TwitterHatespeechDetectionAppDemo.gif)
