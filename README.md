@@ -37,7 +37,7 @@ This binary classification helps us efficiently determine which comments need mo
 **Steps Taken:**
 1. **Exploratory Data Analysis (EDA)** and **Text Preprocessing**: Removed stopwords, lowercased text, removed punctuations, performed stemming, lemmatization, and tokenization.
 2. **Feature Engineering**: Used Bag of Words (BOW), Bi-Grams, and TF-IDF techniques.
-3. **Model Training**: Trained SVM, Logistic Regression, and Naive Bayes models. Found that SVM and Logistic Regression with TF-IDF provided similar F1 scores, while Naive Bayes performed comparatively worse.
+3. **Model Training**: Trained SVM, Logistic Regression, and Naive Bayes models. Found that SVM and Logistic Regression with TF-IDF, Bag of Words (BOW), and Bi-Grams provided similar F1 scores, while Naive Bayes performed comparatively worse.
 4. **Model Evaluation**: Compared models using confusion matrices.
 
 ### Confusion Matrices
